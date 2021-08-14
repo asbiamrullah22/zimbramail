@@ -29,7 +29,7 @@ echo "Installing Zimbra Collaboration just the Software"
 cd /opt/zcs-8.8.15_GA_3869.UBUNTU18_64.20190917004220 && ./install.sh
 
 su - zimbra -c 'zmcontrol restart'
-echo "You can access now to your Zimbra Collaboration Server"
+echo "You can access now to your Zimbra 8.8.15"
 
 
 if [[ $1 == "-d" ]]; then
